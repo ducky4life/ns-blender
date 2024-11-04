@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         blender
 // @namespace    https://ducky4life.github.io/tgw
-// @version      0.2.3
+// @version      1.0.0
 // @description  highlights and hides raider owned/not tagged regions on puree from a given list
 // @author       Ducky
 // @match        *://esfalsa.github.io/puree/*
