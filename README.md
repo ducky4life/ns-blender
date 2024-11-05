@@ -10,7 +10,7 @@ ns-blender is a script to highlight and hide raider owned/not tagged regions on 
 # Installation
 I use [TamperMonkey](https://www.tampermonkey.net/) for this, you can use whatever works for you
 
-Download [blender.user.js](https://github.com/ducky4life/ns-blender/raw/refs/heads/main/blender.user.js) (or paste it in your script runner), enter your main nation, run it, enjoy
+Download [blender.user.js](https://github.com/ducky4life/ns-blender/raw/refs/heads/main/blender.user.js) (or paste it in your script runner), run it, enjoy
 
 If you use TamperMonkey, go to the blender.user.js link above and TamperMonkey should pop up automatically with the [Latest Release](https://github.com/ducky4life/ns-blender/releases/latest)
 
