@@ -3,7 +3,7 @@ get it? because you *blend* puree?
 
 ns-blender is a script to highlight and hide raider owned/not tagged regions on puree from a given list.
 
-## Check out my other scripts!
+## my other scripts :D
 <a href="https://github.com/ducky4life/ns-detag">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ducky4life&repo=ns-detag&theme=algolia" />
 </a>
@@ -30,9 +30,9 @@ You can modify the list by editing the region array using this format:
 
 ```
 const region = [
-  "exampleregion1",
-  "exampleregion2",
-  "exampleregion3"
+    "exampleregion1",
+    "exampleregion2",
+    "exampleregion3"
 ]
 ```
 Please put in region names (not links) in the quotes. The names are **not** case sensitive.
