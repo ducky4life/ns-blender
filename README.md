@@ -18,7 +18,7 @@ Download [blender.user.js](https://github.com/ducky4life/ns-blender/raw/refs/hea
 
 If you use TamperMonkey, go to the blender.user.js link above and TamperMonkey should pop up automatically with the [Latest Release](https://github.com/ducky4life/ns-blender/releases/latest)
 
-# Configuration
+# Usage
 
 The script works on https://esfalsa.github.io/puree automatically, press 's' to start the script on the list generator (https://esfalsa.github.io/puree/list)
 
