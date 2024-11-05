@@ -3,6 +3,10 @@ get it? because you *blend* puree?
 
 ns-blender is a script to highlight and hide raider owned/not tagged regions on puree from a given list.
 
+## Check out my other scripts!
+[![detag script](https://github-readme-stats.vercel.app/api/pin/?username=ducky4life&repo=ns-detag&theme=algolia)](https://github.com/ducky4life/ns-detag)
+[![z-day script](https://github-readme-stats.vercel.app/api/pin/?username=ducky4life&repo=ns-zombie&theme=algolia)](https://github.com/ducky4life/ns-zombie)
+
 # Installation
 I use [TamperMonkey](https://www.tampermonkey.net/) for this, you can use whatever works for you
 
