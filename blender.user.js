@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         blender
 // @namespace    https://ducky4life.github.io/tgw
-// @version      1.0.0
+// @version      1.0.1
 // @description  highlights and hides raider owned/not tagged regions on puree from a given list
 // @author       Ducky
 // @match        *://esfalsa.github.io/puree/*
+// @match        *://esfalsa.github.io//puree/*
 // @grant        none
 // ==/UserScript==
 
@@ -84,7 +85,14 @@ const regions = [
     "North Africa",
     "Black Roses",
     "ben",
-    "gdpoper"
+    "gdpoper",
+    "Neu Mittleleuropa",
+    "Jimothy",
+    "Global Third Position",
+    "lets see how fast rosa snatches this",
+    "Arda en Estel",
+    "Tushonka",
+    "Hyperion"
 ];
 
 
