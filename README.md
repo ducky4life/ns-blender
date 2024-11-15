@@ -5,10 +5,10 @@ ns-blender is a script to highlight and hide raider owned/not tagged regions on 
 
 ## my other scripts :D
 <a href="https://github.com/ducky4life/ns-detag">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ducky4life&repo=ns-detag&theme=algolia" />
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-detag&theme=algolia" />
 </a>
 <a href="https://github.com/ducky4life/ns-zombie">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=ducky4life&repo=ns-zombie&theme=algolia" />
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-zombie&theme=algolia" />
 </a>
 
 # Installation
