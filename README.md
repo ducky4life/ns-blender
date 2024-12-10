@@ -35,7 +35,7 @@ The supplied region list is for testing purposes only and is not comprehensive, 
 
 You can modify the list by editing the region array using this format:
 
-```
+```js
 const region = [
     "exampleregion1",
     "exampleregion2",
