@@ -1,6 +1,8 @@
 # ns-blender
 get it? because you *blend* puree?
 
+ns-blender is a script to highlight and hide raider owned/not tagged regions on puree from a given list.
+
 ## my scripts :D
 
 <a href="https://github.com/ducky4life/ns-detag">
@@ -15,8 +17,6 @@ get it? because you *blend* puree?
 <a href="https://github.com/ducky4life/ns-cardfinder">
   <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-cardfinder&theme=algolia" />
 </a>
-
-ns-blender is a script to highlight and hide raider owned/not tagged regions on puree from a given list.
 
 # Installation
 I use [TamperMonkey](https://www.tampermonkey.net/) for this, you can use whatever works for you
