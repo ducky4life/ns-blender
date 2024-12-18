@@ -3,21 +3,6 @@ get it? because you *blend* puree?
 
 ns-blender is a script to highlight and hide raider owned/not tagged regions on puree from a given list.
 
-## my scripts :D
-
-<a href="https://github.com/ducky4life/ns-detag">
-  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-detag&theme=algolia" />
-</a>
-<a href="https://github.com/ducky4life/ns-blender">
-  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-blender&theme=algolia" />
-</a>
-<a href="https://github.com/ducky4life/ns-zombie">
-  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-zombie&theme=algolia" />
-</a>
-<a href="https://github.com/ducky4life/ns-cardfinder">
-  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-cardfinder&theme=algolia" />
-</a>
-
 # Installation
 I use [TamperMonkey](https://www.tampermonkey.net/) for this, you can use whatever works for you
 
@@ -53,6 +38,24 @@ Turning this on gives more information, but is more distracting.
 Please set your default mode on the `const linkMode = ` line!
 
 You can toggle between the modes by pressing 'a'
+
+## my scripts :D
+
+<a href="https://github.com/ducky4life/ns-detag">
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-detag&theme=algolia" />
+</a>
+<a href="https://github.com/ducky4life/ns-blender">
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-blender&theme=algolia" />
+</a>
+<a href="https://github.com/ducky4life/ns-zombie">
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-zombie&theme=algolia" />
+</a>
+<a href="https://github.com/ducky4life/ns-cardfinder">
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-cardfinder&theme=algolia" />
+</a>
+<a href="https://github.com/ducky4life/ns-cardbidder">
+  <img align="center" src="https://ducky4life.vercel.app/api/pin/?username=ducky4life&repo=ns-cardbidder&theme=algolia&" />
+</a>
 
 ## Having problems/have new ideas?
 
