@@ -8,7 +8,7 @@ I use [TamperMonkey](https://www.tampermonkey.net/) for this, you can use whatev
 
 Download [blender.user.js](https://github.com/ducky4life/ns-blender/raw/refs/heads/main/blender.user.js) (or paste it in your script runner), run it, enjoy
 
-If you use TamperMonkey, go to the blender.user.js link above and TamperMonkey should pop up automatically with the [Latest Release](https://github.com/ducky4life/ns-blender/releases/latest)
+If you use TamperMonkey, go to the blender.user.js link above and TamperMonkey should pop up automatically with the latest release
 
 # Usage
 
