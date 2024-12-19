@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         blender
 // @namespace    https://ducky4life.github.io/tgw
-// @version      1.0.1
+// @version      1.0.2
 // @description  highlights and hides raider owned/not tagged regions on puree from a given list
 // @author       Ducky
 // @match        *://esfalsa.github.io/puree/*
@@ -22,7 +22,7 @@
 // if you turn this off, the regions will be replaced with '(raider owned)' in red text
 // turning this on gives more information, but is more distracting
 // you can toggle between the modes by pressing 'a'
-const linkMode = "on" // on/off
+const linkMode = "off" // on/off
 
 
 // region list, not case sensitive, seperate each word using spaces
@@ -92,7 +92,23 @@ const regions = [
     "lets see how fast rosa snatches this",
     "Arda en Estel",
     "Tushonka",
-    "Hyperion"
+    "Hyperion",
+    "The Realm of Aussies",
+    "Somewhere but Nowhere",
+    "The Gran Republic",
+    "Organization of United Sovereign States",
+    "Alex",
+    "Siberia Fascists",
+    "Taylor Swift",
+    "Sevilla",
+    "Libertatium",
+    "Warzone Sandbox",
+    "Nationalist System",
+    "The Lair of the Dragon",
+    "Trump 2024 Make America Great Again",
+    "URCA",
+    "Emplres forever united",
+    "notas region"
 ];
 
 
