@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name         blender
 // @namespace    https://ducky4life.github.io/tgw
-// @version      1.0.2
+// @version      1.0.3
 // @description  highlights and hides raider owned/not tagged regions on puree from a given list
 // @author       Ducky
 // @match        *://esfalsa.github.io/puree/*
 // @match        *://esfalsa.github.io//puree/*
+// @match        *://ducky.is-a.dev/puree*
 // @grant        none
 // ==/UserScript==
 
@@ -108,10 +109,19 @@ const regions = [
     "Trump 2024 Make America Great Again",
     "URCA",
     "Emplres forever united",
-    "notas region"
+    "notas region",
+    "Galaxy Rangers",
+    "Rosa",
+    "Gemeinschaft der Lander der Zwergschizop",
+    "HinkleistTrumpistMarxistLeninist",
+    "The Great Hell Reich Of America",
+    "Rudak",
+    "Erchion",
+    "Old world Order",
+    "United States of The Saelluean North",
+    "Merethin City",
+    "United States of the USSR"
 ];
-
-
 
 // Code
 
@@ -121,22 +131,26 @@ const regions = [
 
 
 var toggler = "off"
+const regionReg = `.*${regions.join("|.*")}`
 
+let regex = `${regions.join("$|^")}`;
+regex = "^" + regex + "$";
 
 // auto
 if (linkMode === "on") { // off to link
     document.querySelectorAll("a").forEach((link) => {
-        const regionReg = `.*${regions.join("|.*")}`
-        var raider = link.innerHTML.replace(RegExp(regionReg, "i"), '<i style="color: red">' + link + '</i>')
-        toggler = "atLink"
-        link.innerHTML = raider
+        var raider = link.innerHTML.replace(RegExp(regionReg, "i"), '<i style="color: red">' + link + '</i>');
+        toggler = "atLink";
+        link.innerHTML = raider;
     });
 }
 
 else { // off to raider
   document.querySelectorAll("a").forEach((link) => {
-      link.innerHTML = link.innerHTML.replace(RegExp(`${regions.join("|")}`, "i"), '<i style="color: red">(raider owned)</i>')
-      toggler = "atRaider"
+      if (RegExp(regex, "i").test(link.innerText)) {
+          link.innerHTML = link.innerHTML.replace(link.innerHTML, '<i style="color: red">(raider owned)</i>');
+          toggler = "atRaider";
+      }
   });
 }
 
@@ -156,15 +170,15 @@ document.addEventListener("keyup", function (event) {
             if (toggler === "atLink") { // raider to link
                 document.querySelectorAll("a").forEach((link) => {
                     var raider = link.innerHTML.replace(/(https:\/\/www\.nationstates\.net\/.*)/, '<i style="color: red">(raider owned)</i>')
-                    toggler = "atRaider"
-                    link.innerHTML = raider
+                    toggler = "atRaider";
+                    link.innerHTML = raider;
                 });
             }
 
             else { // link to raider
                 document.querySelectorAll("a").forEach((link) => {
-                    link.innerHTML = link.innerHTML.replace(/(.*\(raider owned\).*)/, '<i style="color: red">' + link + '</i>')
-                    toggler = "atLink"
+                    link.innerHTML = link.innerHTML.replace(/(.*\(raider owned\).*)/, '<i style="color: red">' + link + '</i>');
+                    toggler = "atLink";
                 });
             }
             break;
@@ -176,18 +190,16 @@ document.addEventListener("keyup", function (event) {
 
             if (linkMode !== "on") { // off to raider
                 document.querySelectorAll("a").forEach((link) => {
-                    const regionReg = `.*${regions.join("|.*")}`
-                    var raider = link.innerHTML.replace(RegExp(regionReg, "i"), '<i style="color: red">(raider owned)</i>')
-                    toggler = "atRaider"
-                    link.innerHTML = raider
+                    var raider = link.innerHTML.replace(RegExp(regionReg, "i"), '<i style="color: red">(raider owned)</i>');
+                    toggler = "atRaider";
+                    link.innerHTML = raider;
                 });
             }
 
             else if (linkMode === "on") { // off to link
                 document.querySelectorAll("a").forEach((link) => {
-                    const regionReg = `.*${regions.join("|.*")}`
-                    link.innerHTML = link.innerHTML.replace(RegExp(regionReg, "i"), '<i style="color: red">' + link + '</i>')
-                    toggler = "atLink"
+                    link.innerHTML = link.innerHTML.replace(RegExp(regionReg, "i"), '<i style="color: red">' + link + '</i>');
+                    toggler = "atLink";
                 });
             }
             break;
